@@ -1,0 +1,16 @@
+.betslip{
+cursor: pointer;
+position: relative;
+width: 60% !important;
+font-family: 'roboto-regular';
+display: flex;
+margin: auto;
+justify-content: center;
+height: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #373737;
+color: #fff;
+border:2px solid #ffbe00;
+}

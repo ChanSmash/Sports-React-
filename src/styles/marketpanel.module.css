@@ -1,0 +1,54 @@
+.main_container{
+    height: 95vh;
+    width:100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    
+}
+.main_container::-webkit-scrollbar {
+    display: none;
+    width: 5px;
+  }
+.horizontal_cont{
+    width:100%; 
+    height:100%;
+    background-color:#1d1e21;
+    display:flex;
+    flex-Direction:row;
+    overflow-x:auto;
+    overflow-y:hidden
+}
+
+.nameAlign{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* overflow-x: auto; */
+    float: left;
+    /* cursor: pointer; */
+    /* overflow-y: hidden; */
+    height: 96px;
+    /* border: 2px solid red; */
+    min-width: 74px;
+    color: gray;
+    background-image: url("https://sportsboqa.bollytech.com/assets/uploads/sports_logo/1079143599_basketball3x3_selected.svg");
+    background-repeat: no-repeat;
+    border:2px solid red
+}
+.icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+  
+}
+
+.horizontal_cont::-webkit-scrollbar {
+    display: none;
+    width: 5px;
+  }
+
+  
+  
